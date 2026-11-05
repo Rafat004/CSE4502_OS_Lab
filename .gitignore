@@ -1,0 +1,24 @@
+# Build artifacts
+/obj/
+/certikos.img
+/certikos_disk.img
+*.o
+*.d
+*.elf
+*.sym
+*.asm
+
+# Generated debugger and QEMU files
+/.gdbinit
+/qemu.pcap
+
+# Generated source indexes
+/cscope.files
+/cscope.in.out
+/cscope.out
+/cscope.po.out
+
+# Editor and OS files
+.DS_Store
+*.swp
+*.swo
